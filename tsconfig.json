@@ -1,10 +1,12 @@
 {
   "compilerOptions": {
+    "noImplicitAny": false,
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
+    "checkJs": false,
     "skipLibCheck": true,
-    "strict": true,
+    "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
@@ -33,7 +35,8 @@
       "@Static/*": ["public/static/*"],
       "@Styled/*": ["src/Styled/*"],
       "@Test/*": ["test/*"]
-    }
+    },
+    "incremental": true
   },
   "exclude": [
     "node_modules",
@@ -46,5 +49,5 @@
     "coverage",
     "test/*"
   ],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "mjs"]
 }

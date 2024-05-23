@@ -11,8 +11,11 @@ import { theme } from "@Definitions/Styled";
 import { appWithTranslation } from "@Server/i18n";
 import { AppWithStore } from "@Interfaces";
 import { makeStore } from "@Redux";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 import "@Static/css/main.scss";
+import "swiper/swiper.scss";
+
 // #endregion Local Imports
 
 class WebApp extends App<AppWithStore> {

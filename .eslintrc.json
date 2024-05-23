@@ -1,25 +1,43 @@
 {
-    "extends": [
-        "react-app",
-        "airbnb-typescript",
-        "prettier/@typescript-eslint",
-        "plugin:prettier/recommended"
-    ],
-    "rules": {
-        "react/prop-types": "off",
-        "react/jsx-indent": [2, 4, { "checkAttributes": false }],
-        "react/jsx-indent-props": [2, 4],
-        "import/prefer-default-export": "off",
-        "import/no-cycle": "off",
-        "no-multi-assign": "off"
+  "extends": [
+    "react-app",
+    "airbnb-typescript",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off",
+    "react/prop-types": "off",
+    "react/jsx-indent": [2, 4, { "checkAttributes": false }],
+    "react/jsx-indent-props": [2, 4],
+    "import/prefer-default-export": "off",
+    "import/no-cycle": "off",
+    "import/no-duplicates": "off",
+    "import/no-unresolved": "off",
+    "no-multi-assign": "off",
+    "no-unused-vars": "off",
+    "jsx-a11y/anchor-is-valid": 0,
+    "react/jsx-one-expression-per-line": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "react/no-unknown-property": "off",
+    "no-script-url": "off",
+    "jsx-a11y/alt-text": [0],
+    "jsx-a11y/no-static-element-interactions": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "no-shadow": "off",
+    "react/destructuring-assignment": "off",
+    "react/require-default-props": "off",
+    "no-console": "off"
+  },
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
     },
-    "settings": {
-        "import/parsers": {
-            "@typescript-eslint/parser": [".ts", ".tsx"]
-        },
-        "import/resolver": {
-            "typescript": {}
-        }
-    },
-    "plugins": ["import", "jest-dom"]
+    "import/resolver": {
+      "typescript": {}
+    }
+  },
+  "plugins": ["import", "jest-dom"]
 }

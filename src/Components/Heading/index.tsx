@@ -3,8 +3,8 @@ import * as React from "react";
 // #endregion Global Imports
 
 // #region Local Imports
-import styles from "./Heading.module.scss";
 // #endregion Local Imports
+import "@Static/css/Heading.module.scss";
 
 // #region Interface Imports
 import { IHeading } from "./Heading";
@@ -16,9 +16,9 @@ const Heading: React.FunctionComponent<IHeading.IProps> = (
     const { text } = props;
 
     return (
-        <div className={styles.title}>
-            <span className={styles.title__back}>{text}</span>
-            <span className={styles.title__front}>{text}</span>
+        <div className="title">
+            <span className="title__back">{text}</span>
+            <span className="title__front">{text}</span>
         </div>
     );
 };

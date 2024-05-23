@@ -43,8 +43,12 @@ class WebAppDocument extends Document {
                 <Head />
                 <body>
                     <Main />
+                    <div id="modal-root" />
                     <NextScript />
                 </body>
+                <script src="/js/script.js" />
+
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" />
             </Html>
         );
     }
