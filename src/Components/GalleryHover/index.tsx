@@ -63,22 +63,22 @@ export const GalleryHover = ({ mode, isOpen, setOpen }: ModalProps) => {
         onClick={() => setOpen(false)}
       >
         <SwiperSlide style={{ padding: "5%" }} className="slide-item">
-          <img height="100%" width="100%" src={mode === 1 ? "/static/images/photo/gallery1.jpeg" : "/static/images/photo/party_gallery1.jpeg"} />
+          <img height="100%" width="100%" src={mode === 1 ? "/static/images/photo/gallery1.jpeg?v=1234567890" : "/static/images/photo/party_gallery1.jpeg?v=1234567890"} />
         </SwiperSlide>
         <SwiperSlide style={{ padding: "5%" }} className="slide-item">
-          <img height="100%" width="100%" src={mode === 1 ? "/static/images/photo/gallery2.jpeg" : "/static/images/photo/party_gallery2.jpeg"} />
+          <img height="100%" width="100%" src={mode === 1 ? "/static/images/photo/gallery2.jpeg?v=1234567890" : "/static/images/photo/party_gallery2.jpeg?v=1234567890"} />
         </SwiperSlide>
         <SwiperSlide style={{ padding: "5%" }} className="slide-item">
-          <img height="100%" width="100%" src={mode === 1 ? "/static/images/photo/gallery3.jpeg" : "/static/images/photo/party_gallery3.jpeg"} />
+          <img height="100%" width="100%" src={mode === 1 ? "/static/images/photo/gallery3.jpeg?v=1234567890" : "/static/images/photo/party_gallery3.jpeg?v=1234567890"} />
         </SwiperSlide>
         <SwiperSlide style={{ padding: "5%" }} className="slide-item">
-          <img height="100%" width="100%" src={mode === 1 ? "/static/images/photo/gallery4.jpeg" : "/static/images/photo/party_gallery4.jpeg"} />
+          <img height="100%" width="100%" src={mode === 1 ? "/static/images/photo/gallery4.jpeg?v=1234567890" : "/static/images/photo/party_gallery4.jpeg?v=1234567890"} />
         </SwiperSlide>
         <SwiperSlide style={{ padding: "5%" }} className="slide-item">
-          <img height="100%" width="100%" src={mode === 1 ? "/static/images/photo/gallery5.jpeg" : "/static/images/photo/party_gallery5.jpeg"} />
+          <img height="100%" width="100%" src={mode === 1 ? "/static/images/photo/gallery5.jpeg?v=1234567890" : "/static/images/photo/party_gallery5.jpeg?v=1234567890"} />
         </SwiperSlide>
         <SwiperSlide style={{ padding: "5%" }} className="slide-item">
-          <img height="100%" width="100%" src={mode === 1 ? "/static/images/photo/gallery6.jpeg" : "/static/images/photo/party_gallery6.jpeg"} />
+          <img height="100%" width="100%" src={mode === 1 ? "/static/images/photo/gallery6.jpeg?v=1234567890" : "/static/images/photo/party_gallery6.jpeg?v=1234567890"} />
         </SwiperSlide>
       </Swiper>
     </Wrapper>,

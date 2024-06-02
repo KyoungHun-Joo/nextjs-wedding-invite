@@ -77,7 +77,7 @@ export const Gallery: React.FunctionComponent<any> = ({ mode, setOpen }) => {
                                 <a href="#;"
                                 onClick={(e) => handleClick(e, "/about")} 
                                 >
-                                    <img src="https://wedding.dddproject.com/data/file/order_form/2113089417_9kKsIDFh_657c81376b1ea29ca76f6b4ec84f36ecb38811b5.jpeg" alt="비디오이미지" />
+                                    <img src="https://wedding.dddproject.com/data/file/order_form/2113089417_9kKsIDFh_657c81376b1ea29ca76f6b4ec84f36ecb38811b5.jpeg?v=1234567890" alt="비디오이미지" />
                                     <span className="btnPlay"></span>
                                 </a>
                             </div> */}
@@ -120,7 +120,7 @@ export const Gallery: React.FunctionComponent<any> = ({ mode, setOpen }) => {
                           className="img lazy"
                           style={{
                             display: "block",
-                            backgroundImage: `url(/static/images/photo/${mode === 1 ? "" : "party_"}gallery1.jpeg)`,
+                            backgroundImage: `url(/static/images/photo/${mode === 1 ? "" : "party_"}gallery1.jpeg?v=1234567890)`,
                           }}
                         />
                       </a>
@@ -131,7 +131,7 @@ export const Gallery: React.FunctionComponent<any> = ({ mode, setOpen }) => {
                           className="img lazy"
                           style={{
                             display: "block",
-                            backgroundImage: `url(/static/images/photo/${mode === 1 ? "" : "party_"}gallery2.jpeg)`,
+                            backgroundImage: `url(/static/images/photo/${mode === 1 ? "" : "party_"}gallery2.jpeg?v=1234567890)`,
                           }}
                         />
                       </a>
@@ -142,7 +142,7 @@ export const Gallery: React.FunctionComponent<any> = ({ mode, setOpen }) => {
                           className="img lazy"
                           style={{
                             display: "block",
-                            backgroundImage: `url(/static/images/photo/${mode === 1 ? "" : "party_"}gallery3.jpeg)`,
+                            backgroundImage: `url(/static/images/photo/${mode === 1 ? "" : "party_"}gallery3.jpeg?v=1234567890)`,
                           }}
                         />
                       </a>
@@ -153,7 +153,7 @@ export const Gallery: React.FunctionComponent<any> = ({ mode, setOpen }) => {
                           className="img lazy"
                           style={{
                             display: "block",
-                            backgroundImage: `url(/static/images/photo/${mode === 1 ? "" : "party_"}gallery4.jpeg)`,
+                            backgroundImage: `url(/static/images/photo/${mode === 1 ? "" : "party_"}gallery4.jpeg?v=1234567890)`,
                           }}
                         />
                       </a>
@@ -164,7 +164,7 @@ export const Gallery: React.FunctionComponent<any> = ({ mode, setOpen }) => {
                           className="img lazy"
                           style={{
                             display: "block",
-                            backgroundImage: `url(/static/images/photo/${mode === 1 ? "" : "party_"}gallery5.jpeg)`,
+                            backgroundImage: `url(/static/images/photo/${mode === 1 ? "" : "party_"}gallery5.jpeg?v=1234567890)`,
                           }}
                         />
                       </a>
@@ -175,7 +175,7 @@ export const Gallery: React.FunctionComponent<any> = ({ mode, setOpen }) => {
                           className="img lazy"
                           style={{
                             display: "block",
-                            backgroundImage: `url(/static/images/photo/${mode === 1 ? "" : "party_"}gallery6.jpeg)`,
+                            backgroundImage: `url(/static/images/photo/${mode === 1 ? "" : "party_"}gallery6.jpeg?v=1234567890)`,
                           }}
                         />
                       </a>

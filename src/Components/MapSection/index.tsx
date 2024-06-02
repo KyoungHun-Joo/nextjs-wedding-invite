@@ -40,7 +40,7 @@ export const MapSection: React.FunctionComponent<any> = (props) => {
             </div>
             {/* <button onClick={()=>"toCall('02-941-7711')"} className="tel">전화걸기</button> */}
           </div>
-          <img src="/static/images/map1.png" alt="Build Status" />
+          <img src="/static/images/map1.png?v=1234567890" alt="Build Status" />
         </div>
         <div className="info">
           <div className="contain">
