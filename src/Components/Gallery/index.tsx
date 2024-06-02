@@ -5,7 +5,6 @@ import styled from "styled-components";
 // imageUrl='/images/floral-leaf/floral-leaf-1.png'
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
-import "swiper/scss";
 // #region Local Imports
 // #endregion Local Imports
 

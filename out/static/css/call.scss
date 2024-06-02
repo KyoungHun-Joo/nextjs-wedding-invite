@@ -1,0 +1,94 @@
+
+
+.footer_title .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.honjuTel-section {
+    width:70%;
+}
+@media screen and (min-width: 991px){
+
+}
+
+/* tablet 규격 */
+@media screen and (max-width: 768px){
+.honjuTel-section {
+    width:60%;
+}
+}
+
+/* mobile 규격 */
+@media screen and (max-width: 576px){
+.honjuTel-section {
+    width:80%;
+}
+}
+
+.honjuTel-section .tit{
+	font-family:"Noto Sans KR";
+	//font-size:0.750rem;
+    font-size:2.750rem;
+	font-weight:400;
+	line-height:2.5rem;
+	text-align:center;
+
+
+}
+.honjuTel-section .con{
+	padding:1.563rem 2.250rem 1.875rem;
+	text-align:center;
+}
+.honjuTel-section .con:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.honjuTel-section .con .col{
+	float:left;
+	width:45%;
+}
+.honjuTel-section .con .rightCol{
+	margin-left: 10%;
+}
+.honjuTel-section .honju-tit{
+	margin-bottom:0.625rem;
+	font-family:"Noto Sans KR";
+	font-size:0.750rem;
+	font-weight:400;
+	line-height:1.250rem;
+	color:#111;
+}
+.honjuTel-section .box{
+	margin:0 -0.625rem;
+	padding:0 0.625rem;
+	margin-top:0.938rem;
+}
+.honjuTel-section .box.first,
+.honjuTel-section .honju-tit + .box{
+	margin-top:15px;
+}
+.honjuTel-section .box .name{
+	margin-bottom:2.238rem;
+}
+.honjuTel-section .box .name span{
+	font-family:"Noto Sans KR";
+	font-size:1.488rem;
+	font-weight:400;
+	line-height:2.250rem;
+	color:#999;
+}
+.honjuTel-section .box .name strong{
+    margin-left: 2%;
+	font-family:"Noto Sans KR";
+	font-size:1.875rem;
+	font-weight:400;
+	color:#111;
+	line-height:2.250rem;
+	white-space:pre-wrap;
+}
+.honjuTel-section .box .honju-btn{
+	font-size:0;
+	line-height:0;
+}

@@ -9,8 +9,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // #region Local Imports
 // #endregion Local Imports
 
-import "swiper/scss";
-
 import SwiperCore from "swiper";
 import { Navigation, Pagination } from "swiper/modules";
 import { createPortal } from "react-dom";
