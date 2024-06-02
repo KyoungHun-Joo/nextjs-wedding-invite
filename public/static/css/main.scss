@@ -100,12 +100,12 @@ body {
   height: 100%;
   z-index: -1;
   filter: blur(3px);
-  background-image: url("/images/photo/topBanner.jpeg");
+  background-image: url("/static/images/photo/topBanner.jpeg");
   background-size: cover;
   background-position: center;
 }
 .hero.party::before {
-  background-image: url("/images/party/banner1.jpeg") !important;
+  background-image: url("/static/images/party/banner1.jpeg") !important;
 }
 .heroMain {
   position: relative;

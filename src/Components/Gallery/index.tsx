@@ -2,7 +2,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 // #endregion Global Imports
-// imageUrl='/images/floral-leaf/floral-leaf-1.png'
+// imageUrl='/static/images/floral-leaf/floral-leaf-1.png'
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 // #region Local Imports
@@ -68,7 +68,7 @@ export const Gallery: React.FunctionComponent<any> = ({ mode, setOpen }) => {
         >
           <h3 className="title">사진첩</h3>
 
-          <img src="/static/images/section_shape.png" alt="Shape" />
+          <img src="/static/static/images/section_shape.png" alt="Shape" />
         </div>
 
         <div className="galWrap mt" onClick={() => modalHandler()}>
@@ -120,7 +120,7 @@ export const Gallery: React.FunctionComponent<any> = ({ mode, setOpen }) => {
                           className="img lazy"
                           style={{
                             display: "block",
-                            backgroundImage: `url(/images/photo/${mode === 1 ? "" : "party_"}gallery1.jpeg)`,
+                            backgroundImage: `url(/static/images/photo/${mode === 1 ? "" : "party_"}gallery1.jpeg)`,
                           }}
                         />
                       </a>
@@ -131,7 +131,7 @@ export const Gallery: React.FunctionComponent<any> = ({ mode, setOpen }) => {
                           className="img lazy"
                           style={{
                             display: "block",
-                            backgroundImage: `url(/images/photo/${mode === 1 ? "" : "party_"}gallery2.jpeg)`,
+                            backgroundImage: `url(/static/images/photo/${mode === 1 ? "" : "party_"}gallery2.jpeg)`,
                           }}
                         />
                       </a>
@@ -142,7 +142,7 @@ export const Gallery: React.FunctionComponent<any> = ({ mode, setOpen }) => {
                           className="img lazy"
                           style={{
                             display: "block",
-                            backgroundImage: `url(/images/photo/${mode === 1 ? "" : "party_"}gallery3.jpeg)`,
+                            backgroundImage: `url(/static/images/photo/${mode === 1 ? "" : "party_"}gallery3.jpeg)`,
                           }}
                         />
                       </a>
@@ -153,7 +153,7 @@ export const Gallery: React.FunctionComponent<any> = ({ mode, setOpen }) => {
                           className="img lazy"
                           style={{
                             display: "block",
-                            backgroundImage: `url(/images/photo/${mode === 1 ? "" : "party_"}gallery4.jpeg)`,
+                            backgroundImage: `url(/static/images/photo/${mode === 1 ? "" : "party_"}gallery4.jpeg)`,
                           }}
                         />
                       </a>
@@ -164,7 +164,7 @@ export const Gallery: React.FunctionComponent<any> = ({ mode, setOpen }) => {
                           className="img lazy"
                           style={{
                             display: "block",
-                            backgroundImage: `url(/images/photo/${mode === 1 ? "" : "party_"}gallery5.jpeg)`,
+                            backgroundImage: `url(/static/images/photo/${mode === 1 ? "" : "party_"}gallery5.jpeg)`,
                           }}
                         />
                       </a>
@@ -175,7 +175,7 @@ export const Gallery: React.FunctionComponent<any> = ({ mode, setOpen }) => {
                           className="img lazy"
                           style={{
                             display: "block",
-                            backgroundImage: `url(/images/photo/${mode === 1 ? "" : "party_"}gallery6.jpeg)`,
+                            backgroundImage: `url(/static/images/photo/${mode === 1 ? "" : "party_"}gallery6.jpeg)`,
                           }}
                         />
                       </a>
