@@ -1,0 +1,316 @@
+
+.location-section{
+    width:80%;
+	padding:6.125rem 0 0;
+}
+.location-section .head{
+	position:relative;
+	min-height:2.250rem;
+	padding:1rem;
+	background:#fafafa;
+	box-sizing:content-box;
+}
+.location-section .head .tit{
+	margin-bottom:0.675rem;
+	font-family:"Noto Sans KR";
+	font-size:1.838rem;
+	font-weight:400;
+	line-height:2.225rem;
+	color:#111;
+	padding-right: 3rem;
+    word-break: keep-all;
+}
+.location-section .head .txt p{
+	font-family:"Noto Sans KR";
+	font-size:1.613rem;
+	font-weight:400;
+	line-height:2.225rem;
+	color:#999;
+}
+.location-section .head .tel{
+	position: absolute;
+	right:2rem; top:2.225rem;
+	display:block;
+	width:4.450rem;
+	height:4.450rem;
+	background:#333 url("/images/icon_tel.png") 50% 50% no-repeat;
+	background-size:2rem;
+	font-size:0;
+	line-height:0;
+	text-decoration:none;
+	border-radius:50%;
+}
+.location-section .map{
+	width:100%;
+	height:16.125rem;
+}
+.location-section .link{
+	padding:2.250rem 0 1.838rem;
+	background:#fafafa;
+	font-size: 0;
+	line-height:0;
+	text-align: center;
+}
+.location-section .link li{
+	display:inline-block;
+	vertical-align:top;
+	width:7.050rem;
+	padding:0 1.225rem;
+	box-sizing:content-box;
+}
+.location-section .link a{
+	position:relative;
+	display:block;
+	padding-top:6.838rem;
+	font-family:"Noto Sans KR";
+	font-size:1.288rem;
+	font-weight:400;
+	line-height:2rem;
+	color:#111;
+	text-decoration:none;
+}
+.location-section .link a:after{
+	content:'';
+	display:block;
+	position: absolute;
+	left: 50%; top: 0;
+	margin-left:-3.063rem; 
+	width:6.225rem;
+	height:6.225rem;
+	background-position:0 0;
+	background-repeat:no-repeat;
+	background-size:6.225rem;
+}
+.location-section .link .tmap:after{
+	background-image: url("/new_m/mcard/images/common/location_tmap2.png");
+}
+.location-section .link .kakaonavi:after{
+	background-image: url("/new_m/mcard/images/common/location_kakaonavi.png");
+}
+.location-section .link .navermap:after{
+	background-image: url("/new_m/mcard/images/common/location_navermap.png");
+}
+.location-section .link .kakaomap:after{
+	background-image: url("/new_m/mcard/images/common/location_kakaomap.png");
+}
+.location-section .info{
+	padding-top: 1.225rem;
+	background: #f4f4f4;
+}
+.location-section .info .contain{
+	padding:2.450rem;
+	background: #fff;
+}
+.location-section .info dl{
+	padding:1.225rem 0;
+	border-bottom:1px solid #eee;
+}
+.location-section .info dl:first-child{
+	padding-top:0;
+}
+.location-section .info dt{
+	margin-bottom:0.50rem;
+	font-family:"Noto Sans KR";
+	font-size:1.613rem;
+	font-weight:400;
+	line-height:2.450rem;
+	color:#111;
+}
+.location-section .info dt.large{
+	margin-bottom:0.50rem;	
+	font-size:1.838rem;	
+	line-height:2.675rem;	
+}
+.location-section .info dt.big-large{
+	margin-bottom:0.675rem;	
+	font-size:2.06rem;	
+	line-height:3rem;	
+}
+.location-section .info dd{
+	font-family:"Noto Sans KR";
+	font-size:1.50rem;
+	font-weight:400;
+	line-height:2rem;
+	color:#999;
+	white-space:pre-wrap;
+}
+.location-section .info dd.large{	
+	font-size:1.675rem;	
+	line-height:2.225rem;		
+}
+.location-section .info dd.big-large{	
+	font-size:2rem;	
+	line-height:2.45rem;		
+}
+.location-section .map-img{
+	padding:3.063rem 2rem 3.675rem;
+	background:#fff;
+}
+
+.mcard_29 .sec-tit{
+	position:relative;
+	padding-top:1.838rem;
+	margin-bottom:5rem;
+	font-family:'KoPub Batang';
+	font-size:1.288rem;
+	font-weight:700;
+	line-height:3.050rem;
+	text-align:center;
+	color:#111;
+	letter-spacing:0.8em;
+}
+.mcard_29 .sec-tit:after{
+	content:'';
+	position:absolute;
+	left:6.838rem; top:0;
+	display:block;
+	width:calc(100% - 12.875rem);
+	height:1px;
+	background-color:#0c0c0c;
+}
+.mcard_29 .com-btn.tel.sl{
+	background-color:#78c0e9;
+}
+.mcard_29 .com-btn.tel.sb{
+	background-color:#f79e9e;
+}
+.mcard_29 .com-btn.acc.sl{
+	background-color:#78c0e9;
+}
+.mcard_29 .com-btn.acc.sb{
+	background-color:#f79e9e;
+}
+.mcard_29 .com-btn.sms{
+	background-color:#ddd;
+}
+.mcard_29 .tbanner-section .text.vertical{
+	padding-bottom:4.288rem;
+	background:url("/new_m/mcard/images/mcard_29/wedding_day.png") center bottom 1px no-repeat;
+	background-size:7.750rem auto;
+}
+
+.mcard_29 .visual-section{
+	height:100%;
+}
+.mcard_29 .visual-section .vertical-center{
+	height:100%;
+	/* padding:2.5rem 0; */
+	padding:10.625rem 0 12.625rem;
+}
+
+.mcard_29 .visual-section .vertical-item{
+	width:100%;
+	padding:0 6.838rem;
+}
+.mcard_29 .visual-section .vertical-item.date{
+	margin-bottom:3.063rem;
+}
+.mcard_29 .visual-section .vertical-item .date{
+	width:3.675rem;
+	min-height:10rem;
+	padding-left:1.225rem;
+	font-family:'KoPub Batang';
+	font-size:2rem;
+	font-weight:400;
+	line-height:2.450rem;
+	text-align:center;
+	text-transform:uppercase;
+	border-left:1px solid #090303;
+}
+.mcard_29 .visual-section .vertical-item .date.large{
+	width:4rem;
+    min-height:10.125rem;
+	font-size:2.225rem;
+	font-weight:400;
+	line-height:2.675rem;	
+}
+.mcard_29 .visual-section .vertical-item .date.big-large{
+	width:2.125rem;
+    min-height:10.25rem;
+	font-size:2.45rem;
+	font-weight:400;
+	line-height:3rem;	
+}
+.mcard_29 .visual-section .vertical-item.photo img{
+	width:100%;
+}
+.mcard_29 .visual-section .vertical-item.info{
+	margin-top:2.225rem;
+	text-align:right;
+}
+.mcard_29 .visual-section .vertical-item.info .p1{
+	margin-bottom:1.838rem;
+	font-size:0; 
+	line-height:0;
+}
+.mcard_29 .visual-section .vertical-item.info .p1 .vs-span{
+	display:inline-block;
+	vertical-align:top;
+	font-size:2rem;
+	font-weight:400;
+	line-height:2.450rem;
+	letter-spacing:0.4em;
+}
+.mcard_29 .visual-section .vertical-item.info .p1 .vs-span.large{	
+	font-size:2.225rem;	
+	line-height:2.675rem;	
+}
+.mcard_29 .visual-section .vertical-item.info .p1 .vs-span.big-large{	
+	font-size:2.45rem;	
+	line-height:3rem;	
+}
+.mcard_29 .visual-section .vertical-item.info .p1 .bar{
+	margin:0 1.225rem;
+	height:2.450rem;
+	width:1rem;
+	background:url('/new_m/mcard/images/mcard_29/bar_01.png') center center no-repeat;
+	background-size:1rem;
+	letter-spacing:0;
+}
+.mcard_29 .visual-section .vertical-item.info .p1 .bar.large{
+	margin:0 0.75rem;
+	height:2.675rem;
+	width:1.225rem;	
+    background:url('/new_m/mcard/images/mcard_29/bar_01.png') center center no-repeat;
+	background-size:1.225rem;
+	letter-spacing:0;
+}
+.mcard_29 .visual-section .vertical-item.info .p1 .bar.big-large{
+	margin:0 1.675rem;
+	height:3rem;
+	width:1.5rem;	
+    background:url('/new_m/mcard/images/mcard_29/bar_01.png') center center no-repeat;
+	background-size:1.5rem;
+	letter-spacing:0;
+}
+.mcard_29 .visual-section .vertical-item.info .p2{
+	font-size:.1.50rem;
+	font-weight:400;
+	line-height:2.225rem;
+}
+.mcard_29 .visual-section .vertical-item.info .p2.large{
+	font-size:1.613rem;
+	font-weight:400;
+	line-height:2.288rem;
+}
+.mcard_29 .visual-section .vertical-item.info .p2.big-large{
+	font-size:1.675rem;
+	font-weight:400;
+	line-height:2.5rem;
+}
+.mcard_29 .greeting-section{
+	margin-top:-6.125rem;
+}
+.mcard_29 .honjuTel-section .honju-tit.sb{
+	color:#5b1eaa;
+}
+ .after-line:after {
+    content: '';
+    display: block;
+    position: relative;
+    left: 50%;
+    bottom: 0;
+    width: 1px;
+    height: 4.875rem;
+    background: #999;
+}
